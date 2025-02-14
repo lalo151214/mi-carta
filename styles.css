@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+}
+
+.container {
+    text-align: center;
+}
+
+.envelope {
+    width: 200px;
+    height: 150px;
+    background-color: #ff9999;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.letter {
+    width: 180px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    bottom: -100%;
+    transition: bottom 1s ease-in-out;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6666;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
